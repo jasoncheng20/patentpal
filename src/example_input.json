@@ -1,0 +1,583 @@
+{
+    "nodes": [
+      {
+        "id": "8c476652-1369-4e3a-ac3b-f5fd4eade2eb",
+        "text": "a computer system",
+        "type": "CONCEPT",
+        "concepts": [
+          "bc88a2de-3686-4c9f-93f1-86970dcf86f8"
+        ],
+        "parent": null,
+        "children": [
+          "73c747a8-201b-48a5-8fba-0ac97b928560",
+          "46cd4fad-51a7-42ea-a39f-573ca326c19a"
+        ]
+      },
+      {
+        "id": "73c747a8-201b-48a5-8fba-0ac97b928560",
+        "text": "an enclosure",
+        "type": "CONCEPT",
+        "concepts": [
+          "39739355-091c-457c-a9e6-dcb4e3692283"
+        ],
+        "parent": "8c476652-1369-4e3a-ac3b-f5fd4eade2eb",
+        "children": [
+          "9228f31f-8969-45e5-81a7-5e40740ffd06"
+        ]
+      },
+      {
+        "id": "9228f31f-8969-45e5-81a7-5e40740ffd06",
+        "text": "an enclosure to house a plurality of power supplies and a plurality of devices",
+        "type": "CONTEXT",
+        "concepts": [
+          "9985114a-9cdd-4fc9-8723-9d9de87d8372",
+          "02c62ea6-2118-40ad-a3d3-6903b9037c5a",
+          "18b7b242-62a8-430d-b81b-5260d1d0a20d"
+        ],
+        "parent": "73c747a8-201b-48a5-8fba-0ac97b928560",
+        "children": null
+      },
+      {
+        "id": "46cd4fad-51a7-42ea-a39f-573ca326c19a",
+        "text": "a power controller",
+        "type": "CONCEPT",
+        "concepts": [
+          "43673e5a-fbcc-44ba-8e96-69aef0bda8a9"
+        ],
+        "parent": "8c476652-1369-4e3a-ac3b-f5fd4eade2eb",
+        "children": [
+          "9e9d424c-e52c-4e01-b289-d6e93e5e919f",
+          "6c5672cf-dba5-439e-95ef-4a0935eae09e",
+          "85117d74-3d6d-4357-93c9-7862b1299b9a",
+          "4577c1a6-3798-48ab-b23d-5949b3c6960b"
+        ]
+      },
+      {
+        "id": "9e9d424c-e52c-4e01-b289-d6e93e5e919f",
+        "text": "a power controller housed in the enclosure",
+        "type": "CONTEXT",
+        "concepts": [
+          "054cf923-2718-4062-a8e9-87abafe6f583",
+          "b8ddd915-273b-41af-8fc0-6579dd4d91c3",
+          "28d97953-23c0-4fd4-a14f-a4c1fc52fc6b"
+        ],
+        "parent": "46cd4fad-51a7-42ea-a39f-573ca326c19a",
+        "children": null
+      },
+      {
+        "id": "6c5672cf-dba5-439e-95ef-4a0935eae09e",
+        "text": "a total capacity",
+        "type": "CONCEPT",
+        "concepts": [
+          "f4e835ad-5e99-4311-be00-bc4d65497ca8"
+        ],
+        "parent": "46cd4fad-51a7-42ea-a39f-573ca326c19a",
+        "children": [
+          "d7b54892-e9db-4ac0-a2c3-ecbc2e2df690"
+        ]
+      },
+      {
+        "id": "d7b54892-e9db-4ac0-a2c3-ecbc2e2df690",
+        "text": "determine a total capacity of the plurality of power supplies housed in the enclosure",
+        "type": "CONTEXT",
+        "concepts": [
+          "57876f90-89af-4704-8f02-5bf6288747c5",
+          "69f0a0b0-1fa8-438d-8381-a8b0627e98ff",
+          "d4d832e2-c5d4-462d-94cd-f0d95648c714"
+        ],
+        "parent": "6c5672cf-dba5-439e-95ef-4a0935eae09e",
+        "children": null
+      },
+      {
+        "id": "85117d74-3d6d-4357-93c9-7862b1299b9a",
+        "text": "a total power",
+        "type": "CONCEPT",
+        "concepts": [
+          "2865bf77-f17d-49b9-b797-8ef9102401d8"
+        ],
+        "parent": "46cd4fad-51a7-42ea-a39f-573ca326c19a",
+        "children": [
+          "deac3821-7aec-491d-b062-da7e981d1e54"
+        ]
+      },
+      {
+        "id": "deac3821-7aec-491d-b062-da7e981d1e54",
+        "text": "determine a total power consumed by the plurality of devices housed in the enclosure",
+        "type": "CONTEXT",
+        "concepts": [
+          "016016e6-2fb1-4a4d-ad12-debc20cd5805",
+          "2c1124ce-1414-4e0c-9663-715ead79af35",
+          "52364ac5-474a-4d2f-9953-da41529915ce"
+        ],
+        "parent": "85117d74-3d6d-4357-93c9-7862b1299b9a",
+        "children": null
+      },
+      {
+        "id": "4577c1a6-3798-48ab-b23d-5949b3c6960b",
+        "text": "the total capacity",
+        "type": "CONCEPT",
+        "concepts": [
+          "7c42a370-690a-4b63-9147-8a7385892e0e"
+        ],
+        "parent": "46cd4fad-51a7-42ea-a39f-573ca326c19a",
+        "children": [
+          "fe5662eb-968e-4182-b04a-aff103bdda5a"
+        ]
+      },
+      {
+        "id": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+        "text": "based on the total capacity of the plurality of power supplies housed in the enclosure and the total power consumed by the plurality of devices housed in the enclosure, control a power consumption of a first device of the plurality of devices",
+        "type": "CONTEXT",
+        "concepts": [
+          "af182ff6-09b5-482f-bd38-c621a499ffb7",
+          "d89d7aa3-65f2-46c3-a31f-771236efe8bc",
+          "044c21eb-99fd-48fb-a101-7b9fd4064bf5",
+          "77e68299-2111-452a-8d76-105e68932320",
+          "2deb9b8d-ebc5-4580-849f-c7324c8caaeb",
+          "3ea09dd2-5db0-44ac-8681-dded456fbc51",
+          "563eb65c-4313-4f15-ba3c-0ac3d9bbfb77",
+          "d7e63dac-deb9-406f-8fba-6b860b10f063",
+          "5d65bc11-99b5-4cf1-8e42-6e399483bec5"
+        ],
+        "parent": "4577c1a6-3798-48ab-b23d-5949b3c6960b",
+        "children": null
+      },
+      {
+        "id": "a69bf84f-6251-4b8e-aa68-8ee4274549b5",
+        "text": "a plurality of power supplies",
+        "type": "CONCEPT",
+        "concepts": [
+          "292ac80b-7f1c-485f-a396-effc50e6c95b"
+        ],
+        "parent": null,
+        "children": null
+      },
+      {
+        "id": "2c3a9cbd-53e2-4387-95a0-c2dabaf364a4",
+        "text": "a plurality of devices",
+        "type": "CONCEPT",
+        "concepts": [
+          "dc442295-be8f-4cc6-bdea-e187e5f4cc97"
+        ],
+        "parent": null,
+        "children": null
+      },
+      {
+        "id": "55261040-55b9-4a18-9363-2d7c70c0b54c",
+        "text": "a power consumption",
+        "type": "CONCEPT",
+        "concepts": [
+          "50a4c5e1-87d1-4c51-a061-0c3997cc41f1"
+        ],
+        "parent": null,
+        "children": null
+      },
+      {
+        "id": "31dade5a-fda1-42df-b244-d0b14533e28d",
+        "text": "a first device",
+        "type": "CONCEPT",
+        "concepts": [
+          "96a15f8d-d7d1-4a3f-9edf-67f3624965cf"
+        ],
+        "parent": null,
+        "children": null
+      }
+    ],
+    "concepts": [
+      {
+        "id": "9812e65d-6d2c-4a97-8ce0-32acea8008d6",
+        "text": "computer system",
+        "instances": [
+          {
+            "id": "bc88a2de-3686-4c9f-93f1-86970dcf86f8",
+            "text": "computer system",
+            "concept": "9812e65d-6d2c-4a97-8ce0-32acea8008d6",
+            "node": "8c476652-1369-4e3a-ac3b-f5fd4eade2eb",
+            "start": 2,
+            "end": 17,
+            "doc_paragraph_index": 2,
+            "doc_start": 5,
+            "doc_end": 20
+          }
+        ]
+      },
+      {
+        "id": "eca866d8-72f6-4f95-a8aa-aaefed30db37",
+        "text": "enclosure",
+        "instances": [
+          {
+            "id": "39739355-091c-457c-a9e6-dcb4e3692283",
+            "text": "enclosure",
+            "concept": "eca866d8-72f6-4f95-a8aa-aaefed30db37",
+            "node": "73c747a8-201b-48a5-8fba-0ac97b928560",
+            "start": 3,
+            "end": 12,
+            "doc_paragraph_index": 3,
+            "doc_start": 3,
+            "doc_end": 12
+          },
+          {
+            "id": "9985114a-9cdd-4fc9-8723-9d9de87d8372",
+            "text": "enclosure",
+            "concept": "eca866d8-72f6-4f95-a8aa-aaefed30db37",
+            "node": "9228f31f-8969-45e5-81a7-5e40740ffd06",
+            "start": 3,
+            "end": 12,
+            "doc_paragraph_index": 3,
+            "doc_start": 3,
+            "doc_end": 12
+          },
+          {
+            "id": "b8ddd915-273b-41af-8fc0-6579dd4d91c3",
+            "text": "enclosure",
+            "concept": "eca866d8-72f6-4f95-a8aa-aaefed30db37",
+            "node": "9e9d424c-e52c-4e01-b289-d6e93e5e919f",
+            "start": 33,
+            "end": 42,
+            "doc_paragraph_index": 4,
+            "doc_start": 33,
+            "doc_end": 42
+          },
+          {
+            "id": "d4d832e2-c5d4-462d-94cd-f0d95648c714",
+            "text": "enclosure",
+            "concept": "eca866d8-72f6-4f95-a8aa-aaefed30db37",
+            "node": "d7b54892-e9db-4ac0-a2c3-ecbc2e2df690",
+            "start": 76,
+            "end": 85,
+            "doc_paragraph_index": 5,
+            "doc_start": 76,
+            "doc_end": 85
+          },
+          {
+            "id": "52364ac5-474a-4d2f-9953-da41529915ce",
+            "text": "enclosure",
+            "concept": "eca866d8-72f6-4f95-a8aa-aaefed30db37",
+            "node": "deac3821-7aec-491d-b062-da7e981d1e54",
+            "start": 75,
+            "end": 84,
+            "doc_paragraph_index": 6,
+            "doc_start": 75,
+            "doc_end": 84
+          },
+          {
+            "id": "044c21eb-99fd-48fb-a101-7b9fd4064bf5",
+            "text": "enclosure",
+            "concept": "eca866d8-72f6-4f95-a8aa-aaefed30db37",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 77,
+            "end": 86,
+            "doc_paragraph_index": 7,
+            "doc_start": 77,
+            "doc_end": 86
+          },
+          {
+            "id": "3ea09dd2-5db0-44ac-8681-dded456fbc51",
+            "text": "enclosure",
+            "concept": "eca866d8-72f6-4f95-a8aa-aaefed30db37",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 158,
+            "end": 167,
+            "doc_paragraph_index": 7,
+            "doc_start": 158,
+            "doc_end": 167
+          }
+        ]
+      },
+      {
+        "id": "a6fb9ed0-cdf8-481d-9d9b-130b72d73653",
+        "text": "power supplies",
+        "instances": [
+          {
+            "id": "02c62ea6-2118-40ad-a3d3-6903b9037c5a",
+            "text": "power supplies",
+            "concept": "a6fb9ed0-cdf8-481d-9d9b-130b72d73653",
+            "node": "9228f31f-8969-45e5-81a7-5e40740ffd06",
+            "start": 37,
+            "end": 51,
+            "doc_paragraph_index": 3,
+            "doc_start": 37,
+            "doc_end": 51
+          },
+          {
+            "id": "69f0a0b0-1fa8-438d-8381-a8b0627e98ff",
+            "text": "power supplies",
+            "concept": "a6fb9ed0-cdf8-481d-9d9b-130b72d73653",
+            "node": "d7b54892-e9db-4ac0-a2c3-ecbc2e2df690",
+            "start": 47,
+            "end": 61,
+            "doc_paragraph_index": 5,
+            "doc_start": 47,
+            "doc_end": 61
+          },
+          {
+            "id": "d89d7aa3-65f2-46c3-a31f-771236efe8bc",
+            "text": "power supplies",
+            "concept": "a6fb9ed0-cdf8-481d-9d9b-130b72d73653",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 48,
+            "end": 62,
+            "doc_paragraph_index": 7,
+            "doc_start": 48,
+            "doc_end": 62
+          },
+          {
+            "id": "292ac80b-7f1c-485f-a396-effc50e6c95b",
+            "text": "power supplies",
+            "concept": "a6fb9ed0-cdf8-481d-9d9b-130b72d73653",
+            "node": "a69bf84f-6251-4b8e-aa68-8ee4274549b5",
+            "start": 15,
+            "end": 29,
+            "doc_paragraph_index": 3,
+            "doc_start": 37,
+            "doc_end": 51
+          }
+        ]
+      },
+      {
+        "id": "f903e928-f59f-4a24-ad68-296b8e07b6ed",
+        "text": "devices",
+        "instances": [
+          {
+            "id": "18b7b242-62a8-430d-b81b-5260d1d0a20d",
+            "text": "devices",
+            "concept": "f903e928-f59f-4a24-ad68-296b8e07b6ed",
+            "node": "9228f31f-8969-45e5-81a7-5e40740ffd06",
+            "start": 71,
+            "end": 78,
+            "doc_paragraph_index": 3,
+            "doc_start": 71,
+            "doc_end": 78
+          },
+          {
+            "id": "2c1124ce-1414-4e0c-9663-715ead79af35",
+            "text": "devices",
+            "concept": "f903e928-f59f-4a24-ad68-296b8e07b6ed",
+            "node": "deac3821-7aec-491d-b062-da7e981d1e54",
+            "start": 53,
+            "end": 60,
+            "doc_paragraph_index": 6,
+            "doc_start": 53,
+            "doc_end": 60
+          },
+          {
+            "id": "2deb9b8d-ebc5-4580-849f-c7324c8caaeb",
+            "text": "devices",
+            "concept": "f903e928-f59f-4a24-ad68-296b8e07b6ed",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 136,
+            "end": 143,
+            "doc_paragraph_index": 7,
+            "doc_start": 136,
+            "doc_end": 143
+          },
+          {
+            "id": "5d65bc11-99b5-4cf1-8e42-6e399483bec5",
+            "text": "devices",
+            "concept": "f903e928-f59f-4a24-ad68-296b8e07b6ed",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 235,
+            "end": 242,
+            "doc_paragraph_index": 7,
+            "doc_start": 235,
+            "doc_end": 242
+          },
+          {
+            "id": "dc442295-be8f-4cc6-bdea-e187e5f4cc97",
+            "text": "devices",
+            "concept": "f903e928-f59f-4a24-ad68-296b8e07b6ed",
+            "node": "2c3a9cbd-53e2-4387-95a0-c2dabaf364a4",
+            "start": 15,
+            "end": 22,
+            "doc_paragraph_index": 3,
+            "doc_start": 71,
+            "doc_end": 78
+          }
+        ]
+      },
+      {
+        "id": "5840bf67-63ba-4d02-b677-3fd83a720789",
+        "text": "power controller",
+        "instances": [
+          {
+            "id": "43673e5a-fbcc-44ba-8e96-69aef0bda8a9",
+            "text": "power controller",
+            "concept": "5840bf67-63ba-4d02-b677-3fd83a720789",
+            "node": "46cd4fad-51a7-42ea-a39f-573ca326c19a",
+            "start": 2,
+            "end": 18,
+            "doc_paragraph_index": 4,
+            "doc_start": 2,
+            "doc_end": 18
+          },
+          {
+            "id": "054cf923-2718-4062-a8e9-87abafe6f583",
+            "text": "power controller",
+            "concept": "5840bf67-63ba-4d02-b677-3fd83a720789",
+            "node": "9e9d424c-e52c-4e01-b289-d6e93e5e919f",
+            "start": 2,
+            "end": 18,
+            "doc_paragraph_index": 4,
+            "doc_start": 2,
+            "doc_end": 18
+          },
+          {
+            "id": "28d97953-23c0-4fd4-a14f-a4c1fc52fc6b",
+            "text": "power controller",
+            "concept": "5840bf67-63ba-4d02-b677-3fd83a720789",
+            "node": "9e9d424c-e52c-4e01-b289-d6e93e5e919f",
+            "start": 48,
+            "end": 64,
+            "doc_paragraph_index": 4,
+            "doc_start": 48,
+            "doc_end": 64
+          }
+        ]
+      },
+      {
+        "id": "2acbc1ae-1b1f-4f63-932e-6d657a4f8206",
+        "text": "total capacity",
+        "instances": [
+          {
+            "id": "f4e835ad-5e99-4311-be00-bc4d65497ca8",
+            "text": "total capacity",
+            "concept": "2acbc1ae-1b1f-4f63-932e-6d657a4f8206",
+            "node": "6c5672cf-dba5-439e-95ef-4a0935eae09e",
+            "start": 2,
+            "end": 16,
+            "doc_paragraph_index": 5,
+            "doc_start": 12,
+            "doc_end": 26
+          },
+          {
+            "id": "57876f90-89af-4704-8f02-5bf6288747c5",
+            "text": "total capacity",
+            "concept": "2acbc1ae-1b1f-4f63-932e-6d657a4f8206",
+            "node": "d7b54892-e9db-4ac0-a2c3-ecbc2e2df690",
+            "start": 12,
+            "end": 26,
+            "doc_paragraph_index": 5,
+            "doc_start": 12,
+            "doc_end": 26
+          },
+          {
+            "id": "7c42a370-690a-4b63-9147-8a7385892e0e",
+            "text": "total capacity",
+            "concept": "2acbc1ae-1b1f-4f63-932e-6d657a4f8206",
+            "node": "4577c1a6-3798-48ab-b23d-5949b3c6960b",
+            "start": 4,
+            "end": 18,
+            "doc_paragraph_index": 7,
+            "doc_start": 13,
+            "doc_end": 27
+          },
+          {
+            "id": "af182ff6-09b5-482f-bd38-c621a499ffb7",
+            "text": "total capacity",
+            "concept": "2acbc1ae-1b1f-4f63-932e-6d657a4f8206",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 13,
+            "end": 27,
+            "doc_paragraph_index": 7,
+            "doc_start": 13,
+            "doc_end": 27
+          }
+        ]
+      },
+      {
+        "id": "4c223e44-5af6-46d0-96c5-38305f768828",
+        "text": "total power",
+        "instances": [
+          {
+            "id": "2865bf77-f17d-49b9-b797-8ef9102401d8",
+            "text": "total power",
+            "concept": "4c223e44-5af6-46d0-96c5-38305f768828",
+            "node": "85117d74-3d6d-4357-93c9-7862b1299b9a",
+            "start": 2,
+            "end": 13,
+            "doc_paragraph_index": 6,
+            "doc_start": 12,
+            "doc_end": 23
+          },
+          {
+            "id": "016016e6-2fb1-4a4d-ad12-debc20cd5805",
+            "text": "total power",
+            "concept": "4c223e44-5af6-46d0-96c5-38305f768828",
+            "node": "deac3821-7aec-491d-b062-da7e981d1e54",
+            "start": 12,
+            "end": 23,
+            "doc_paragraph_index": 6,
+            "doc_start": 12,
+            "doc_end": 23
+          },
+          {
+            "id": "77e68299-2111-452a-8d76-105e68932320",
+            "text": "total power",
+            "concept": "4c223e44-5af6-46d0-96c5-38305f768828",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 95,
+            "end": 106,
+            "doc_paragraph_index": 7,
+            "doc_start": 95,
+            "doc_end": 106
+          }
+        ]
+      },
+      {
+        "id": "996e5995-ad6b-4fb2-a265-d44f4815f620",
+        "text": "power consumption",
+        "instances": [
+          {
+            "id": "563eb65c-4313-4f15-ba3c-0ac3d9bbfb77",
+            "text": "power consumption",
+            "concept": "996e5995-ad6b-4fb2-a265-d44f4815f620",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 179,
+            "end": 196,
+            "doc_paragraph_index": 7,
+            "doc_start": 179,
+            "doc_end": 196
+          },
+          {
+            "id": "50a4c5e1-87d1-4c51-a061-0c3997cc41f1",
+            "text": "power consumption",
+            "concept": "996e5995-ad6b-4fb2-a265-d44f4815f620",
+            "node": "55261040-55b9-4a18-9363-2d7c70c0b54c",
+            "start": 2,
+            "end": 19,
+            "doc_paragraph_index": 7,
+            "doc_start": 179,
+            "doc_end": 196
+          }
+        ]
+      },
+      {
+        "id": "16d027cc-ef65-41a5-8b31-e3008faf9eb0",
+        "text": "first device",
+        "instances": [
+          {
+            "id": "d7e63dac-deb9-406f-8fba-6b860b10f063",
+            "text": "first device",
+            "concept": "16d027cc-ef65-41a5-8b31-e3008faf9eb0",
+            "node": "fe5662eb-968e-4182-b04a-aff103bdda5a",
+            "start": 202,
+            "end": 214,
+            "doc_paragraph_index": 7,
+            "doc_start": 202,
+            "doc_end": 214
+          },
+          {
+            "id": "96a15f8d-d7d1-4a3f-9edf-67f3624965cf",
+            "text": "first device",
+            "concept": "16d027cc-ef65-41a5-8b31-e3008faf9eb0",
+            "node": "31dade5a-fda1-42df-b244-d0b14533e28d",
+            "start": 2,
+            "end": 14,
+            "doc_paragraph_index": 7,
+            "doc_start": 202,
+            "doc_end": 214
+          }
+        ]
+      }
+    ]
+  }
