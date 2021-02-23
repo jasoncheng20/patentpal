@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ChildNode from "../ChildNode/ChildNode";
-import styles from "./ParentNode.module.css";
 import TextEditor from "../TextEditor/TextEditor";
+import withDraggable from "../../../hoc/withDraggable";
 
-const ParentNode = (props) => {
+const Node = (props) => {
   const [showChildren, setShowChildren] = useState(true);
 
   const toggleChildrenView = () => {
@@ -12,6 +12,7 @@ const ParentNode = (props) => {
     }
   };
 
+  // if showChildren is true and props.children exists, render a Child Node
   const children =
     props.children &&
     showChildren &&
@@ -22,7 +23,6 @@ const ParentNode = (props) => {
   return (
     <div>
       <li
-        className={styles.listItem}
         style={{ color: color }}
         onClick={toggleChildrenView}
       >
@@ -32,4 +32,4 @@ const ParentNode = (props) => {
     </div>
   );
 };
-export default ParentNode;
+export default withDraggable(Node);
