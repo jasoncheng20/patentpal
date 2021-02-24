@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Node from "./Node/Node";
 import exampleInput from "../../example_input.json";
+
+import Node from "./Node/Node";
 import styles from "./GraphBuilder.module.css";
 
 const initialInput = { nodes: [{ id: 1, text: "" }] };
