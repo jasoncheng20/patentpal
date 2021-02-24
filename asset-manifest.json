@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/patentpal/static/css/main.f504f342.chunk.css",
+    "main.js": "/patentpal/static/js/main.7c857504.chunk.js",
+    "main.js.map": "/patentpal/static/js/main.7c857504.chunk.js.map",
+    "runtime-main.js": "/patentpal/static/js/runtime-main.78082506.js",
+    "runtime-main.js.map": "/patentpal/static/js/runtime-main.78082506.js.map",
+    "static/js/2.4c3bda09.chunk.js": "/patentpal/static/js/2.4c3bda09.chunk.js",
+    "static/js/2.4c3bda09.chunk.js.map": "/patentpal/static/js/2.4c3bda09.chunk.js.map",
+    "static/js/3.e8d55910.chunk.js": "/patentpal/static/js/3.e8d55910.chunk.js",
+    "static/js/3.e8d55910.chunk.js.map": "/patentpal/static/js/3.e8d55910.chunk.js.map",
+    "index.html": "/patentpal/index.html",
+    "static/css/main.f504f342.chunk.css.map": "/patentpal/static/css/main.f504f342.chunk.css.map",
+    "static/js/2.4c3bda09.chunk.js.LICENSE.txt": "/patentpal/static/js/2.4c3bda09.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78082506.js",
+    "static/js/2.4c3bda09.chunk.js",
+    "static/css/main.f504f342.chunk.css",
+    "static/js/main.7c857504.chunk.js"
+  ]
+}
