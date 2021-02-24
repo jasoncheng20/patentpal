@@ -22,7 +22,7 @@ const GraphBuilder = () => {
     // find position of existing node
     let selectedIndex
     for (let i=0; i<duplicatedInput.length; i++) {
-      if (duplicatedInput[i].id == key){
+      if (duplicatedInput[i].id === key){
         selectedIndex = i
       }
     }

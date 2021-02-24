@@ -11,7 +11,7 @@ const Node = (props) => {
     }
   };
 
-  // if showChildren is true and props.children exists, render a Child Node
+  // if showChildren is true and props.children exists, render a child Node
   const children =
     props.children &&
     showChildren &&

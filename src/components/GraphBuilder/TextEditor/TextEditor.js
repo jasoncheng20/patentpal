@@ -10,6 +10,7 @@ const TextEditor = (props) => {
     },
   ]);
 
+  // switch between indented and non-indented
   const renderElement = useCallback((props) => {
     switch (props.element.type) {
       case "tab":
@@ -30,12 +31,6 @@ const TextEditor = (props) => {
         spellCheck
         autoFocus
         onKeyDown={(event) => {
-          if (event.metaKey && event.key === "z") {
-            // Prevent the ampersand character from being inserted.
-            event.preventDefault();
-            // Execute the `insertText` method when the event occurs.
-            editor.insertText("😕");
-          }
           if (event.key === "Tab" && event.shiftKey) {
             event.preventDefault();
             // move up tab hierarchy
@@ -62,10 +57,9 @@ const TextEditor = (props) => {
             event.preventDefault();
           }
           if (event.key === "Backspace" && text.length === 0) {
-            event.preventDefault()
+            event.preventDefault();
             props.deleteNode(props.id);
           }
-          {/* console.log(event.key); */}
         }}
       />
     </Slate>
