@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ChildNode from "../ChildNode/ChildNode";
 import TextEditor from "../TextEditor/TextEditor";
 import withDraggable from "../../../hoc/withDraggable";
 
@@ -16,17 +15,25 @@ const Node = (props) => {
   const children =
     props.children &&
     showChildren &&
-    props.children.map((v) => <ChildNode key={v.id} text={v.text} />);
-
-  let color = showChildren ? "blue" : "green";
+    props.children.map((v) => (
+      <Node
+        key={v.id}
+        text={v.text}
+        addNode={props.addNode}
+        deleteNode={props.deleteNode}
+        id={v.id}
+      />
+    ));
 
   return (
     <div>
-      <li
-        style={{ color: color }}
-        onClick={toggleChildrenView}
-      >
-        <TextEditor text={props.text} />
+      <li onClick={toggleChildrenView}>
+        <TextEditor
+          text={props.text}
+          id={props.id}
+          addNode={props.addNode}
+          deleteNode={props.deleteNode}
+        />
       </li>
       <ul>{children}</ul>
     </div>

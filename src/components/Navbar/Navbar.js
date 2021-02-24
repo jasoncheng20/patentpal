@@ -3,9 +3,7 @@ import React from "react";
 const Navbar = () => (
   <div>
     <ul>
-      <li>Menu</li>
-      <li>Generate</li>
-      <li>Proofread</li>
+      Navbar | Graph Builder
     </ul>
   </div>
 );

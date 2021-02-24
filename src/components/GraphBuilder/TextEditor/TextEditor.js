@@ -12,7 +12,7 @@ const TextEditor = (props) => {
 
   const renderElement = useCallback((props) => {
     switch (props.element.type) {
-      case "code":
+      case "tab":
         return <IndentList {...props} />;
       default:
         return <DefaultElement {...props} />;
@@ -36,36 +36,52 @@ const TextEditor = (props) => {
             // Execute the `insertText` method when the event occurs.
             editor.insertText("😕");
           }
-          if (event.key === "Tab") {
-            event.preventDefault()
-            // Determine whether any of the currently selected blocks are code blocks.
-            const [match] = Editor.nodes(editor, {
-              match: n => n.type === 'code',
-            })
-            // Toggle the block type depending on whether there's already a match.
+          if (event.key === "Tab" && event.shiftKey) {
+            event.preventDefault();
+            // move up tab hierarchy
             Transforms.setNodes(
               editor,
-              { type: match ? 'paragraph' : 'code' },
-              { match: n => Editor.isBlock(editor, n) }
-            
+              { type: "paragraph" },
+              { match: (n) => Editor.isBlock(editor, n) }
+            );
+          } else if (event.key === "Tab") {
+            event.preventDefault();
+            // move down tab hierarchy
+            Transforms.setNodes(
+              editor,
+              { type: "tab" },
+              { match: (n) => Editor.isBlock(editor, n) }
             );
           }
+          // destructure text from state
+          let { text } = value[0].children[0];
+          if (event.key === "Enter" && text.length > 0) {
+            event.preventDefault();
+            props.addNode(props.id);
+          } else if (event.key === "Enter") {
+            event.preventDefault();
+          }
+          if (event.key === "Backspace" && text.length === 0) {
+            event.preventDefault()
+            props.deleteNode(props.id);
+          }
+          {/* console.log(event.key); */}
         }}
       />
     </Slate>
   );
 };
 
-const IndentList = props => {
+const IndentList = (props) => {
   return (
     <ul>
       <li>{props.children}</li>
     </ul>
-  )
-}
+  );
+};
 
-const DefaultElement = props => {
-  return <p {...props.attributes}>{props.children}</p>
-}
+const DefaultElement = (props) => {
+  return <p {...props.attributes}>{props.children}</p>;
+};
 
 export default TextEditor;

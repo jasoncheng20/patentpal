@@ -3,7 +3,7 @@ import Draggable from "react-draggable";
 
 const withDraggable = (WrappedComponent) => {
   return (props) => {
-    const [position, setPosition] = useState({ x: 0, y: 0 });
+    const [position, setPosition] = useState();
 
     // update our position whenever onDrag is triggered
     const trackPos = (data) => {
